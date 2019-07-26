@@ -13,8 +13,6 @@ for i=1:length(XMatrix)
 end
 
 
-%L=nom./denom
-%L=YMatrix.*L
 L=YMatrix.*(nom./denom);
 yEstimated=sum(L);
 
